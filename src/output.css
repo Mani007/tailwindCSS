@@ -600,3 +600,9 @@ video {
 .underline {
   text-decoration-line: underline;
 }
+
+@media (min-width: 768px) {
+  .md\:text-center {
+    text-align: center;
+  }
+}
