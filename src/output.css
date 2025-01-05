@@ -605,6 +605,12 @@ video {
   }
 }
 
+@media (min-width: 768px) {
+  .md\:text-right {
+    text-align: right;
+  }
+}
+
 @media (min-width: 1024px) {
   .lg\:text-center {
     text-align: center;
