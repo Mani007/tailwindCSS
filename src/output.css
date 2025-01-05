@@ -594,6 +594,11 @@ video {
   }
 }
 
+.text-mycolor {
+  --tw-text-opacity: 1;
+  color: rgb(218 55 61 / var(--tw-text-opacity, 1));
+}
+
 @media (min-width: 640px) {
   .sm\:text-left {
     text-align: left;
