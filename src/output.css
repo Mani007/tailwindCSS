@@ -558,6 +558,12 @@ video {
   width: 100%;
 }
 
+@media (min-width: 320px) {
+  .container {
+    max-width: 320px;
+  }
+}
+
 @media (min-width: 640px) {
   .container {
     max-width: 640px;
@@ -588,28 +594,9 @@ video {
   }
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.font-bold {
-  font-weight: 700;
-}
-
-.underline {
-  text-decoration-line: underline;
-}
-
 @media (min-width: 640px) {
   .sm\:text-left {
     text-align: left;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:text-center {
-    text-align: center;
   }
 }
 
