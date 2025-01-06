@@ -3,4 +3,6 @@ This folder is all about the testing tailwind CSS and its latest updates. We can
 ### Container class
 We find dynamic screen size adjustment as per container class. 
 ### max-width and mx-auto 
-These classes are best utilized for dealing with width.  
+These classes are best utilized for dealing with width. 
+### Grid for page layout
+Use grid for layout of the page and alternatively you can use flex as well.  
