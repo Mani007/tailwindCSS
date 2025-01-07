@@ -17,5 +17,5 @@ Use grid for layout of the page and alternatively you can use flex as well. Chec
 Margin: We move the entire box.     
 padding: We move the content inside the box.     
 `Check the CSS box model for details.`     
-`Also don't forget the rules of margin and padding overriding.`
-
+`Also don't forget the rules of margin and padding overriding.`    
+Arbitrary values for margins and padding can be given by `m-[20px]` means all sides 20px. We can also say `m-[10px_20px_20px_10px]` to define all 4 sides in clockwise directions as happen in case of CSS. 
