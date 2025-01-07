@@ -10,4 +10,12 @@ We find dynamic screen size adjustment as per container class.
 ### max-width and mx-auto 
 These classes are best utilized for dealing with width. 
 ### Grid for page layout
-Use grid for layout of the page and alternatively you can use flex as well. Check official documentation for more information. 
+Use grid for layout of the page and alternatively you can use flex as well. Check official documentation for more information.     
+### Margin and padding in tailwind CSS
+1. Use margin, padding, m, p, mt, mb, ml, mr, ml, mx, my, px, py, pt, pr, pl, pb, px, py, m-auto, p-auto etc. 
+2. We can use negative values for negative margins and padding.    
+Margin: We move the entire box.     
+padding: We move the content inside the box.     
+`Check the CSS box model for details.`     
+`Also don't forget the rules of margin and padding overriding.`
+
