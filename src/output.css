@@ -671,6 +671,11 @@ video {
   background-color: rgb(190 242 100 / var(--tw-bg-opacity, 1));
 }
 
+.bg-green-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(134 239 172 / var(--tw-bg-opacity, 1));
+}
+
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -714,6 +719,10 @@ video {
 
 .font-thin {
   font-weight: 100;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 .text-white {
