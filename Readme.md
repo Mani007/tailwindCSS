@@ -18,4 +18,7 @@ Margin: We move the entire box.
 padding: We move the content inside the box.     
 `Check the CSS box model for details.`     
 `Also don't forget the rules of margin and padding overriding.`    
-Arbitrary values for margins and padding can be given by `m-[20px]` means all sides 20px. We can also say `m-[10px_20px_20px_10px]` to define all 4 sides in clockwise directions as happen in case of CSS. Also `m-[10px_20px]` means 10px for top and bottom and 20px for left and right sides. 
+Arbitrary values for margins and padding can be given by `m-[20px]` means all sides 20px. We can also say `m-[10px_20px_20px_10px]` to define all 4 sides in clockwise directions as happen in case of CSS. Also `m-[10px_20px]` means 10px for top and bottom and 20px for left and right sides.    
+3. We can also use `auto` value to make margin or padding auto.    
+### Flexbox for layout in Tailwind CSS
+Flexbox is used for making page layout similar to grid layout design.  
