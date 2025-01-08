@@ -554,20 +554,8 @@ video {
   display: none;
 }
 
-.col-span-2 {
-  grid-column: span 2 / span 2;
-}
-
-.col-span-3 {
-  grid-column: span 3 / span 3;
-}
-
 .col-start-2 {
   grid-column-start: 2;
-}
-
-.m-10 {
-  margin: 2.5rem;
 }
 
 .mx-auto {
@@ -604,32 +592,12 @@ video {
   max-width: 1024px;
 }
 
-.basis-\[40\%\] {
-  flex-basis: 40%;
-}
-
-.basis-\[60\%\] {
-  flex-basis: 60%;
-}
-
 .basis-\[30\%\] {
   flex-basis: 30%;
 }
 
 .basis-\[70\%\] {
   flex-basis: 70%;
-}
-
-.grid-cols-subgrid {
-  grid-template-columns: subgrid;
-}
-
-.grid-cols-1 {
-  grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .gap-2 {
@@ -661,9 +629,9 @@ video {
   background-color: rgb(17 24 39 / var(--tw-bg-opacity, 1));
 }
 
-.bg-slate-300 {
+.bg-green-300 {
   --tw-bg-opacity: 1;
-  background-color: rgb(203 213 225 / var(--tw-bg-opacity, 1));
+  background-color: rgb(134 239 172 / var(--tw-bg-opacity, 1));
 }
 
 .bg-lime-300 {
@@ -671,9 +639,9 @@ video {
   background-color: rgb(190 242 100 / var(--tw-bg-opacity, 1));
 }
 
-.bg-green-300 {
+.bg-slate-300 {
   --tw-bg-opacity: 1;
-  background-color: rgb(134 239 172 / var(--tw-bg-opacity, 1));
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity, 1));
 }
 
 .py-20 {
@@ -693,11 +661,6 @@ video {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -706,6 +669,11 @@ video {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .text-xl {
@@ -717,12 +685,12 @@ video {
   font-weight: 700;
 }
 
-.font-thin {
-  font-weight: 100;
-}
-
 .font-semibold {
   font-weight: 600;
+}
+
+.font-thin {
+  font-weight: 100;
 }
 
 .text-white {
@@ -742,10 +710,6 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:col-span-2 {
-    grid-column: span 2 / span 2;
-  }
-
   .md\:col-span-3 {
     grid-column: span 3 / span 3;
   }
@@ -754,16 +718,12 @@ video {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .md\:grid-cols-subgrid {
-    grid-template-columns: subgrid;
-  }
-
-  .md\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
   .md\:grid-cols-\[60\%_auto\] {
     grid-template-columns: 60% auto;
+  }
+
+  .md\:grid-cols-subgrid {
+    grid-template-columns: subgrid;
   }
 
   .md\:text-4xl {
