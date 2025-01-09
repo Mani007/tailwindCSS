@@ -568,6 +568,11 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .mb-8 {
   margin-bottom: 2rem;
 }
@@ -598,6 +603,14 @@ video {
 
 .basis-\[70\%\] {
   flex-basis: 70%;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .gap-2 {
@@ -679,6 +692,11 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .font-bold {
